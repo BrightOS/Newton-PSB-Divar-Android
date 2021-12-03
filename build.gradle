@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0'
+        classpath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.1.0'
+        classpath 'com.google.firebase:perf-plugin:1.4.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

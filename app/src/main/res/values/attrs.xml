@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackground" format="color" />
+    <attr name="cardIconColor" format="color" />
+    <attr name="buttonBackgroundColor" format="color" />
+    <attr name="buttonTextColor" format="color" />
+    <attr name="logoColor" format="color" />
+    <attr name="colorBad" format="color" />
+    <attr name="colorUnknown" format="color" />
+    <attr name="colorMedium" format="color" />
+    <attr name="colorGood" format="color" />
+    <attr name="colorMenuChecked" format="color" />
+    <attr name="colorMenuNotChecked" format="color" />
+    <attr name="bottomNavigationBackground" format="color" />
+
+    <declare-styleable name="PSBLoadingView">
+        <attr name="errorText" format="string" />
+        <attr name="checkEnabled" format="boolean" />
+        <attr name="showByDefault" format="boolean" />
+    </declare-styleable>
+</resources>
