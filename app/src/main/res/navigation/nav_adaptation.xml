@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_adaptation">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_adaptation"
+    app:startDestination="@id/adaptationFragment">
 
+    <fragment
+        android:id="@+id/adaptationFragment"
+        android:name="ru.psbank.newton.ui.adaptation.AdaptationFragment"
+        android:label="AdaptationFragment"
+        tools:layout="@layout/fragment_adaptation">
+        <action
+            android:id="@+id/action_adaptationFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="ru.psbank.newton.ui.adaptation.tasks.TasksFragment"
+        android:label="TasksFragment"
+        tools:layout="@layout/fragment_tasks">
+        <argument android:name="objects"
+            app:argType="string"/>
+        <argument android:name="title"
+            app:argType="string"/>
+    </fragment>
 </navigation>

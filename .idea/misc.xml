@@ -3,14 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/NewtonPSB/app/src/main/res/drawable/circle.xml" value="0.3828125" />
         <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_adaptation_filled.xml" value="0.3769230769230769" />
         <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_adaptation_selector.xml" value="0.3769230769230769" />
         <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_person_selector.xml" value="0.3769230769230769" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_poll_outlined.xml" value="0.31614583333333335" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_poll_selector.xml" value="0.31614583333333335" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/drawable/ic_project_selector.xml" value="0.31614583333333335" />
         <entry key="..\:/NewtonPSB/app/src/main/res/drawable/popup_menu_background.xml" value="0.3769230769230769" />
         <entry key="..\:/NewtonPSB/app/src/main/res/drawable/splash.xml" value="0.3769230769230769" />
-        <entry key="..\:/NewtonPSB/app/src/main/res/layout/activity_auth.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/activity_auth.xml" value="0.33" />
         <entry key="..\:/NewtonPSB/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/fragment_adaptation.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/fragment_project.xml" value="0.22" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/fragment_tasks.xml" value="0.20520833333333333" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/fragment_theme.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_day.xml" value="0.5" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_goal.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_maintask.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_participant.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_source.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_subtask.xml" value="0.5" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_task.xml" value="0.33" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/item_theme.xml" value="0.36666666666666664" />
         <entry key="..\:/NewtonPSB/app/src/main/res/layout/layout_loading.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewtonPSB/app/src/main/res/layout/layout_psb_appbar.xml" value="0.36666666666666664" />
         <entry key="..\:/NewtonPSB/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
       </map>
     </option>

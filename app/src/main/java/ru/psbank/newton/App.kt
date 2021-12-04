@@ -2,6 +2,7 @@ package ru.psbank.newton
 
 import android.app.Application
 import android.content.ContentResolver
+import androidx.appcompat.app.AppCompatDelegate
 import ru.psbank.newton.data.PreferenceRepository
 
 class App : Application() {
@@ -15,6 +16,8 @@ class App : Application() {
         preferenceRepository = PreferenceRepository(
             getSharedPreferences(DEFAULT_PREFERENCES, MODE_PRIVATE)
         )
+
+        AppCompatDelegate.setDefaultNightMode(preferenceRepository.nightMode)
     }
 
     companion object {

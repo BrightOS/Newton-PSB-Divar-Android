@@ -2,8 +2,10 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="?colorPrimaryDark" />
     <item
-        android:width="713.5dp"
-        android:height="506.5dp"
+        android:width="356.75dp"
+        android:height="253.25dp"
         android:drawable="@drawable/psb"
-        android:gravity="center" />
+        android:gravity="center"
+        android:end="120dp"
+        android:start="120dp" />
 </layer-list>

@@ -24,7 +24,7 @@
         android:elevation="0dp"
         app:cardCornerRadius="8dp"
         app:cardBackgroundColor="?cardBackground"
-        app:cardElevation="5dp"
+        app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,9 +72,10 @@
                 app:boxCornerRadiusBottomStart="100dp"
                 app:boxCornerRadiusTopEnd="100dp"
                 app:boxCornerRadiusTopStart="100dp"
-                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidth="0dp"
                 app:hintEnabled="false"
-                app:boxStrokeWidthFocused="0dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:boxStrokeColor="?colorAccent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtitle">
@@ -83,6 +84,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Логин"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
                     android:fontFamily="@font/gilroy_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,9 +100,11 @@
                 app:boxCornerRadiusBottomStart="100dp"
                 app:boxCornerRadiusTopEnd="100dp"
                 app:boxCornerRadiusTopStart="100dp"
-                app:boxStrokeWidth="1dp"
-                app:boxStrokeWidthFocused="0dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:boxStrokeColor="?colorAccent"
                 app:hintEnabled="false"
+                app:passwordToggleEnabled="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/login">
@@ -108,19 +113,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Пароль"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
                     android:fontFamily="@font/gilroy_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/auth"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="?colorSecondary"
                 android:fontFamily="@font/gilroy_bold"
-                android:letterSpacing="0"
                 android:text="Войти"
-                android:textColor="?colorAccent"
-                android:textAllCaps="false"
+                android:textColor="@android:color/white"
                 app:cornerRadius="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -7,7 +7,7 @@
         <item name="colorAccent">#ffffff</item>
         <item name="colorSecondary">#d33914</item>
         <item name="cardBackground">#2c2c3a</item>
-        <item name="bottomNavigationBackground">#f6f5ff</item>
+        <item name="bottomNavigationBackground">#2c2c3a</item>
         <item name="android:candidatesTextStyleSpans">candidates</item>
 
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
@@ -29,8 +29,8 @@
         <item name="colorMedium">@color/yellow_600</item>
         <item name="colorGood">@color/green_600</item>
         <item name="colorUnknown">@color/light_blue_200</item>
-        <item name="colorMenuChecked">@color/grey_700</item>
-        <item name="colorMenuNotChecked">@color/grey_500</item>
+        <item name="colorMenuChecked">#F5F6FA</item>
+        <item name="colorMenuNotChecked">#A0A0A0</item>
 
         <item name="background">@android:color/transparent</item>
         <item name="android:colorBackground">@android:color/transparent</item>
